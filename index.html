@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico"/>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>profile-card</title>
+</head>
+<body>
+
+
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
+                    <span class="title">Ashish Jha</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="title">Customer</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                    <span class="title">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                    <span class="title">Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="title">Setting</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <span class="title">Password</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span class="title">Sign Out</span>
+                </a>
+            </li>
+        </ul>
+        <div class="toggle"></div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   
+    <main class="profile-card">
+        <img class="profile-pic" src="luffy.jpg">
+        <div class="details">
+        <h1 class="name">
+            Ashish Jha
+        </h1>
+
+        <div class="location"><img src="./assets/images/location-dot-solid.svg"/><span >Rajasthan</span></div>
+        <p class="description">
+            UI/UX designer and front-end developer
+        </p>
+
+        
+
+        <div class="button">
+            <button id="change-background">Change Background</button>
+            <button class="message-button">Message</button>
+            <button class="follow-button following">Follow</button>
+        </div>
+        <div class="skills">
+            <h2>SKILLS</h2>
+            <ul class="skills-list">
+            <li>UI/UX</li>
+            <li>Front End Development</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Bootstap</li>
+        </ul>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
